@@ -118,12 +118,10 @@ The two `wpad.lan` DNS queries received responses indicating that the requested 
 - The analysis did not establish whether any activity was malicious.
 - Future work could include examining TCP handshakes, checking DNS response patterns, and plotting packet counts over time.
 
-## Privacy and Responsible Handling
+## Privacy
 
-The original packet capture is not included in this repository. Raw captures may contain private IP addresses, device names, DNS queries, or other sensitive information.
-
-Before sharing screenshots or further evidence, review them for personal information and credentials. Only publish captures that you have permission to share and have checked for sensitive data.
+This project uses a network traffic capture collected for beginner cybersecurity learning. Network captures may contain sensitive information, such as IP addresses and details about network activity. Any shared data should be reviewed to avoid exposing personal or confidential information.
 
 ## Disclaimer
 
-This project is for educational purposes. It documents observations from a short network capture and does not claim to provide a complete security assessment.
+This project is for educational purposes only. The investigation focuses on understanding network traffic using Wireshark. The observations do not establish that malicious activity occurred, and no confirmed security incident was identified from the evidence reviewed.
