@@ -138,7 +138,7 @@ The two `wpad.lan` DNS queries received responses indicating that the requested 
 
 ## Privacy
 
-This project uses a network traffic capture collected for beginner cybersecurity learning. Network captures may contain sensitive information, such as IP addresses and details about network activity. Any shared data should be reviewed to avoid exposing personal or confidential information.
+This project uses a network traffic capture collected for beginner cybersecurity learning. Network captures may contain sensitive information, such as IP addresses and details about network activity. 
 
 ## Disclaimer
 
