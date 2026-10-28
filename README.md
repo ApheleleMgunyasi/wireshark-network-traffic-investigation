@@ -64,32 +64,23 @@ xychart-beta
     bar [33726, 17973]
 ```
 ## Investigation Screenshots
+**1. Protocol Hierarchy**
 
-The following screenshots provide visual evidence of the Wireshark analysis performed during this project.
+Wireshark protocol hierarchy showing the network protocols identified in my captured traffic.
 
-### Screenshot 1: Protocol Hierarchy
+**2. Selected Protocol Counts Graph**
 
-This screenshot shows the protocols identified in the network capture and their packet counts.
+A visual comparison of selected protocol counts from my first Wireshark investigation.
 
-![Wireshark Protocol Hierarchy](images/protocol-hierarchy.png)
+**3. DNS Investigation**
 
-### Screenshot 2: Selected Protocol Counts
+Investigating `wpad.lan` DNS queries and NXDOMAIN responses to understand DNS behaviour.
 
-This graph compares selected protocol counts from the capture, including IPv4, TCP, TLS, IPv6, mDNS, ARP and DNS. Protocol counts overlap across layers and should not be interpreted as parts of one total.
+**4. TCP/TLS Traffic**
 
-![Selected Protocol Counts](images/protocol-counts.png)
+Examining TCP/TLS traffic to understand network communication and practise evidence-based analysis.
 
-### Screenshot 3: DNS Investigation
 
-This screenshot shows the DNS queries for `wpad.lan` and the responses reporting that the requested name was not found (`NXDOMAIN`). This observation alone does not establish malicious activity.
-
-![DNS Investigation](images/dns-investigation.png)
-
-### Screenshot 4: TCP/TLS Traffic
-
-This screenshot shows an example of the TCP/TLS traffic examined during the investigation. Port 443 is commonly used for HTTPS/TLS, but the port number alone does not establish whether traffic is malicious.
-
-![TCP and TLS Traffic](images/tcp-tls-traffic.png)
 
 **Interpretation:** TLS accounted for approximately 65.2% of the captured bytes, while the remaining traffic accounted for approximately 34.8%. TLS encryption generally prevents the application content from being read directly from ordinary packet details.
 
